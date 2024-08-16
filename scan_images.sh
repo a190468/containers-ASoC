@@ -16,7 +16,7 @@ docker images -q > list_images.txt # list all images
 PATH_SACCLI="/Users/a190468/Downloads/SAClientUtil.8.0.1574/bin"
 key_secret="change_here"   #you must change this
 key_id="change_here"               #you must change this
-appASoC="7ed92fbd-ef41-4616-b7c3-d4afa5f359ec"              #you must change this, and get the app id on the dashboard page
+appASoC="change_here"              #you must change this, and get the app id on the dashboard page
 
 $PATH_SACCLI/appscan.sh api_login -P $key_secret -u $key_id  -persist #login Appscan on cloud
 
